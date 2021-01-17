@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+$MainColor: #fff;
+$FontSize: 1rem;
+$FontStack: "Lato", Arial, sans-serif;
+
+@mixin mq($size) {
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000
+    url("https://raw.githubusercontent.com/bradtraversy/breaking-bad-cast/master/src/img/bg.jpg")
+    no-repeat center center/cover;
+  font-family: $FontStack;
+  font-size: $FontSize;
+}

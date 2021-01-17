@@ -10,7 +10,13 @@ export default function Cards({data}) {
             {
                 data.map(d => (
                     <div key={d.char_id} className="card">
-                        <h1>{d.name}</h1>
+                        <div className="imgWrapper">
+                        <img src={d.img} alt="" srcset=""/>
+                        </div>
+                        <div className="info">
+                            <p>{d.name}</p>
+                        </div>
+                        
                     </div>
                 ))
             }   
