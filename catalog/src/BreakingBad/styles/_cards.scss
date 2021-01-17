@@ -7,6 +7,7 @@
   width: 90%;
   height: auto;
   margin: 10px auto;
+  padding-top: 50px;
   @include mq(768px) {
     width: 80%;
     max-width: 1024px;
