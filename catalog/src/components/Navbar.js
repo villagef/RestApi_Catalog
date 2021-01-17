@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <div className="navbarWrapper">
             <div className="logo">
-                <img src="" alt="" srcset=""/>
+                <p>Filip Wydra</p>
             </div>
         </div>
     )
